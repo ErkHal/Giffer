@@ -1,0 +1,77 @@
+body {
+
+    background-color: #1c2128;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+
+}
+
+header {
+
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style : italic;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0.1px;
+  background-color: rgba(28, 33, 40, 0.5);
+  align-items: center;
+  justify-content: center;
+
+}
+
+li {
+  list-style: none;
+  padding: 2rem;
+}
+
+form {
+
+    align-content: center;
+
+}
+
+form input{
+
+    border-radius: 1em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-style: none;
+    height: 3em;
+}
+
+form input[type="button"] {
+    width: 4em;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5697ff;
+}
+
+.search {
+    align-content: center;
+}
+
+.centered {
+  align-items: center;
+}
+
+#gifGrid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gridImage {
+  max-width: 400px;
+  max-height: 400px;
+}
